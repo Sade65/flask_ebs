@@ -29,9 +29,10 @@ Due to time constraints further testing was not done. However more route test sh
 
 ## Requirements / Setup Environment
 
-python version 3.1.8 
-flask version .. 
-docker 
+- Python 3.8.3
+- Flask 2.2.2
+- Werkzeug 2.2.2
+- Docker 
 
 ## Run Project
 To initalize with environmental variables, after cloning the repository, on linux or macos run:
@@ -51,6 +52,15 @@ python3 main.py
 
 Please use the dockerfile provided in order to make a docker image (using docker build command) containing the python script (main.py), and the docker run command in order run a docker container with this image containing the app python script . 
 
+```
+docker build
+```
+
+```
+docker compose
+````
+
+
 Note: For this, the following os and dependancies will be required: 
 
 - python:alpine3.6 image 
@@ -62,4 +72,6 @@ Note: For this, the following os and dependancies will be required:
 The Docker container can also be run using the Docker compose file.
 Please use the docker-compose.yml file which is a yaml file describing Docker container configuration. Using the docker-compose up command in the same folder as the file, the Docker container can be run.
 
-
+```
+docker-compose up
+```
