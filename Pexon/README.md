@@ -25,20 +25,26 @@ Furthermore within the 'tests' folder, the writer of the app has included his ow
 recently acquired AWS Certified Cloud Practitioner.pdf certification that can be 
 used to run a manual upload test on the app.
 
-Due to time constraints further testing was not done. However more route test should be carried out. It would be recommended to do the following route tests:
-
-- 
-
-
+Due to time constraints further testing was not done. However more route test should be carried out. 
 
 ## Requirements / Setup Environment
 
-python 
-flask 
+python version 3.1.8 
+flask version .. 
+docker 
 
 ## Run Project
-commands for run project 
+To initalize with environmental variables, after cloning the repository, on linux or macos run:
+
+```
+. venv/bin/activate
+````
+
+To run the main python script to execute project:
+
+```
 python3 main.py
+```
 
 
 ## Run as docker container
@@ -47,7 +53,7 @@ Please use the dockerfile provided in order to make a docker image (using docker
 
 Note: For this, the following os and dependancies will be required: 
 
-- python alpine3.6 image 
+- python:alpine3.6 image 
 - pysqlite3
 - flask
 
