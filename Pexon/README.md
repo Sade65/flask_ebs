@@ -1,7 +1,7 @@
 # Pexon certifcation portal
 - Challenge Description:
 
-A Python Flask-based web app has been created to provide a portral through which Pexon employees can provide their Name, Certification(s) titles, and upload corresponding certification files in pdf, png and jpeg file formats. 
+A Python Flask-based web app has been created to provide a portal through which Pexon employees can provide their Name, Certification(s) titles, and upload corresponding certification files in pdf, png and jpeg file formats. 
 
 The web app allows the upload, and storage of these employee credentials onto the backend sqlite database. 
 
@@ -10,12 +10,11 @@ Registered credentials and corresponding uploader details are further presented 
 - Route unit tests 
 
 The app contains 3 routes that can be tested for:
-1- route('/', methods=['GET'])
-2- route('/upload', methods=['POST'])
-3- route('/cert/<id>', methods=['GET'])
+- GET /
+- POST /upload
+- GET /cert /{id} 
 
-For demonstration purposes, a 'tests' folder is created, consisting of a python file 'test_routes.py' which in turn consists of a script to test for the 2nd route 
-i.e. the /upload route.
+For demonstration purposes, a 'tests' folder is created, consisting of a python file 'test_routes.py' which in turn consists of a script to test for the 2nd route i.e. the /upload route.
 
 In order to carry out the test one should run command : PYTHONPATH=. pytest
 Furthermore within the 'tests' folder, the writer of the app has included his own 
