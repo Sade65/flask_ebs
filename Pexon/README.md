@@ -1,8 +1,8 @@
-# Pexon certifcation portal
+# Certifcation Portal
 
 ## Challenge Description:
 
-A Python Flask-based web app has been created to provide a portal through which Pexon employees can provide their Name, Certification(s) titles, and upload corresponding certification files in pdf, png and jpeg file formats. 
+A Python Flask-based web app has been created to provide a portal through which emps can provide their Name, Certification title, and upload corresponding certification files in pdf, png and jpeg file formats. 
 
 The web app allows the upload, and storage of these employee credentials onto the backend sqlite database. 
 
